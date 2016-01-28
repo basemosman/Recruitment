@@ -83,10 +83,9 @@ I want **to see if the store is open or closed, and the open times for the today
 
 # Technical questions
 
-Please answer the following questions in a markdown file called `Answers to technical questions.md`.
+Please answer the following questions in a markdown file called `Answers.md`.
 
 * Did you have time to complete the coding test? What would you add to your solution if you had more time?
-* What was the most useful feature in your opinion that was added to C# 4? Please include a snippet of code that shows how you've used it.
 * What's your favourite programming language? Why?
 * How would you track down a performance bottleneck in an application? Have you ever had to do this?
 * How would you improve the Touch2Success API?
