@@ -5,14 +5,14 @@ T2S Developer API Test
 
 Touch2Success has a Test API available at https://test-api.t2scdn.com/ that you can use to get a stores information.
 
-As an example, https://test-api.t2scdn.com/?q=123 returns a the details of store, including the contact information.
+As an example, https://test-api.t2scdn.com/?store=123 returns a the details of store, including the contact information.
 
 The API requires you specify a set of valid request headers before it'll respond.
 
         Accept-Tenant: uk
         Accept-Language: en-GB
         Accept-Charset: utf-8
-        Authorization: Basic YXBpOnRlc3RhcGk=
+        Authorization: Basic YXBpOnRlc3RhcGkh
         Host: test-api.t2scdn.com
 
 The task is to create a command line application using C++/Qt, Android SDK, X Code or a basic script in PHP. The application should accept a store ID as a parameter. The application should then display the following information about the store.
