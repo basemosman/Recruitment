@@ -13,6 +13,7 @@ Touch2Success is in need of an API to interact with it's Store and Customer data
 - Your code should be of production quality.
 - Provide a Postman collection to interact with your API
 - Provide any documentation / planning you carried out
+- Dataset can be found in the `dataset` directory
 
 
 ## User stories
@@ -57,35 +58,7 @@ So that **I can update any store details as and when required**
 
 ---
 
-### Story 4 - Update a Store
-
-As an **API consumer**
-I want to **update any data belonging to a particular store**
-So that **I can update a stores details as and when required**
-
-#### Acceptance criteria
-
-* Able to update any data for a Store
-* Requested Data is validated (best guess)
-    * Informative &amp; relevant error message returned for invalid data
-* Requested Data is sanitised
-* Requested Data is formatted
-
----
-
-### Story 5 - Retrieving a Store by ID
-As a **API consumer**
-I want to **retrieve a stores details via a stores ID**
-So that **I can view a stores details**
-
-#### Acceptance criteria
-
-* Accept Store ID as a parameter
-* Return all Store details for the requested Store ID
-
----
-
-### Story 6 - Retrieving list of Stores w/ total customers count
+### Story 4 - Retrieving list of Stores w/ total customers count
 
 As an **API consumer**
 I want to **retrieve a list of storex along with their total customers count**
@@ -97,7 +70,7 @@ So that **I can view how many customers each store has**
 
 ---
 
-### Story 7 - Retrieve a Stores Customers
+### Story 5 - Retrieve a Stores Customers
 
 As an **API consumer**
 I want to **retieve a list of all the customers belonging to a particular store**
@@ -110,7 +83,7 @@ So that **I can see which customers the store has**
 
 ---
 
-### Story 8 - Create a Customer
+### Story 6 - Create a Customer
 
 As an **API consumer**
 I want to **create a customer for a particular store**
@@ -127,7 +100,7 @@ So that **added customers to my database**
 
 ---
 
-### Story 9 - Search for Store
+### Story 7 - Search for Store
 
 As an **API consumer**
 I want to **search a store by name**
@@ -138,6 +111,32 @@ So that **I find the a store if it exists**
 * Ability to search partial name or full name of Store
 * Maximum of 5 results returned.
 * Return Store id and name
+
+---
+
+### Story 8 - Authentication
+
+As an **API provider**
+I want to **ensure only authorised user can access my API**
+So that **my data is protected and secure**
+
+#### Acceptance criteria
+
+* Unauthorised requests should return denied when attempting to access to any endpoint
+* Authorisation requested should return the expected response
+
+---
+
+### Story 9 - Database Optimisation
+
+As an **API Provider**
+I want to **ensure my database is optimised**
+So that **performance is faster for my api consumers**
+
+#### Acceptance criteria
+
+* Optimised for performance
+
 
 
 # Technical questions
