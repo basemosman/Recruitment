@@ -78,7 +78,7 @@ So that **I can see which customers the store has**
 
 #### Acceptance criteria
 
-* Return a list of Store Customer. Only firstname, lastname, postcode.
+* Return a list of Store Customer. Only firstname, lastname, Email.
 * Only display the customers for the given Store
 
 ---
@@ -92,7 +92,7 @@ So that **added customers to my database**
 #### Acceptance criteria
 
 * Ability to create a customer (all data)
-* Must not create customer unless firstname, lastname, postcode and store id are present and valid.
+* Must not create customer unless firstname, lastname, email and store id are present and valid.
 * Requested Create Data is validated (best guess)
     * Informative &amp; relevant error message returned for invalid data
 * Requested Create Data is sanitised
